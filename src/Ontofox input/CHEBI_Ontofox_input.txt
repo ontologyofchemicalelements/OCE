@@ -117,15 +117,21 @@ http://purl.obolibrary.org/obo/CHEBI_33361    # 109 Mt meitnerium
 http://purl.obolibrary.org/obo/CHEBI_33367    # 110 Ds darmstadtium
 http://purl.obolibrary.org/obo/CHEBI_33368    # 111 Rg roentgentium
 http://purl.obolibrary.org/obo/CHEBI_33517    # 112 Cn copernicum
+
+http://purl.obolibrary.org/obo/CHEBI_33250 #atom
    
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/CHEBI_33250 #atom
+http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
 
 [Source term retrieval setting]
-includeComputedIntermediates
+includeAllIntermediates
+
+# includeComputedIntermediates
 
 [Source annotation URIs]
-includeAllAxioms
+includeAllAxiomsRecursively
+
+#includeAllAxioms
 
 [Source annotation URIs to be excluded]

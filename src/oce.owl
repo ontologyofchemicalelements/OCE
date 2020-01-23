@@ -21,7 +21,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">OCE: A formal ontology in the area of chemical elements</dc:subject>
         <dc:title xml:lang="en">OCE: Ontology of Chemical Elements</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.02</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.03</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -156,7 +156,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OCE_0000047>3ds1</obo:OCE_0000047>
@@ -186,7 +186,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OCE_0000047>3d4 S2</obo:OCE_0000047>
@@ -215,7 +215,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">13</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -278,15 +278,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:label xml:lang="en">f block element</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OCE_0000005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
-        <rdfs:label xml:lang="en">electron</rdfs:label>
     </owl:Class>
     
 
@@ -389,7 +380,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -413,7 +404,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -437,7 +428,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -461,7 +452,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -485,7 +476,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -509,7 +500,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -533,7 +524,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -557,7 +548,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -581,7 +572,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -605,7 +596,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -629,7 +620,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">11</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -653,7 +644,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">12</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -677,7 +668,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -701,7 +692,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -725,7 +716,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -749,7 +740,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -773,7 +764,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -798,7 +789,7 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000005"/>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
