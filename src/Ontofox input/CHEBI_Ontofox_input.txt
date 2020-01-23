@@ -1,0 +1,131 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/oce/CHEBI_imports.owl
+
+[Source ontology]
+CHEBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CHEBI_49637    # 1 H hydrogen
+http://purl.obolibrary.org/obo/CHEBI_30217    # 2 He helium
+http://purl.obolibrary.org/obo/CHEBI_30145    # 3 Li lithium
+http://purl.obolibrary.org/obo/CHEBI_30501    # 4 Be beryllium
+http://purl.obolibrary.org/obo/CHEBI_27560    # 5 B boron
+http://purl.obolibrary.org/obo/CHEBI_27594    # 6 C carbon
+http://purl.obolibrary.org/obo/CHEBI_25555    # 7 N nitrogen
+http://purl.obolibrary.org/obo/CHEBI_25805    # 8 O oxygen
+http://purl.obolibrary.org/obo/CHEBI_24061    # 9 F fluorine
+http://purl.obolibrary.org/obo/CHEBI_33310    # 10 Ne neon
+http://purl.obolibrary.org/obo/CHEBI_26708    # 11 Na sodium
+http://purl.obolibrary.org/obo/CHEBI_25107    # 12 Mg magnesium
+http://purl.obolibrary.org/obo/CHEBI_28984    # 13 Al aluminum
+http://purl.obolibrary.org/obo/CHEBI_27573    # 14 Si silicon
+http://purl.obolibrary.org/obo/CHEBI_28659    # 15 P phosphorus
+http://purl.obolibrary.org/obo/CHEBI_26833    # 16 S sulfur
+http://purl.obolibrary.org/obo/CHEBI_23116    # 17 Cl chlorine
+http://purl.obolibrary.org/obo/CHEBI_49475    # 18 Ar argon
+http://purl.obolibrary.org/obo/CHEBI_26216    # 19 K potassium
+http://purl.obolibrary.org/obo/CHEBI_22984    # 20 Ca calcium
+http://purl.obolibrary.org/obo/CHEBI_33330    # 21 Sc scandium
+http://purl.obolibrary.org/obo/CHEBI_33341    # 22 Ti titanium
+http://purl.obolibrary.org/obo/CHEBI_27698    # 23 V vanadium
+http://purl.obolibrary.org/obo/CHEBI_28073    # 24 Cr chromium
+http://purl.obolibrary.org/obo/CHEBI_18291    # 25 Mn manganese
+http://purl.obolibrary.org/obo/CHEBI_18248    # 26 Fe iron
+http://purl.obolibrary.org/obo/CHEBI_27638    # 27 Co cobalt
+http://purl.obolibrary.org/obo/CHEBI_28112    # 28 Ni nickel
+http://purl.obolibrary.org/obo/CHEBI_28694    # 29 Cu copper
+http://purl.obolibrary.org/obo/CHEBI_27363    # 30 Zn zinc
+http://purl.obolibrary.org/obo/CHEBI_49631    # 31 Ga gallium
+http://purl.obolibrary.org/obo/CHEBI_30441    # 32 Ge germanium
+http://purl.obolibrary.org/obo/CHEBI_27563    # 33 As arsenic
+http://purl.obolibrary.org/obo/CHEBI_27568    # 34 Se selenium
+http://purl.obolibrary.org/obo/CHEBI_22927    # 35 Br bromine
+http://purl.obolibrary.org/obo/CHEBI_49696    # 36 Kr krypton
+http://purl.obolibrary.org/obo/CHEBI_33322    # 37 Rb rubidium
+http://purl.obolibrary.org/obo/CHEBI_33324    # 38 Sr strontium
+http://purl.obolibrary.org/obo/CHEBI_33331    # 39 Y yttrium
+http://purl.obolibrary.org/obo/CHEBI_33342    # 40 Zr zirconium
+http://purl.obolibrary.org/obo/CHEBI_33344    # 41 Nb niobium
+http://purl.obolibrary.org/obo/CHEBI_28685    # 42 Mo molybdenum
+http://purl.obolibrary.org/obo/CHEBI_33353    # 43 Tc technetium
+http://purl.obolibrary.org/obo/CHEBI_30682    # 44 Ru ruthenium
+http://purl.obolibrary.org/obo/CHEBI_33359    # 45 Rh rhodium
+http://purl.obolibrary.org/obo/CHEBI_33363    # 46 Pd palladium
+http://purl.obolibrary.org/obo/CHEBI_30512    # 47 Ag silver
+http://purl.obolibrary.org/obo/CHEBI_22977    # 48 Cd cadmium
+http://purl.obolibrary.org/obo/CHEBI_30430    # 49 In indium
+http://purl.obolibrary.org/obo/CHEBI_27007    # 50 Sn tin
+http://purl.obolibrary.org/obo/CHEBI_30513    # 51 Sb antimony
+http://purl.obolibrary.org/obo/CHEBI_30452    # 52 Te tellurium
+http://purl.obolibrary.org/obo/CHEBI_24859    # 53 I iodine
+http://purl.obolibrary.org/obo/CHEBI_49957    # 54 Xe xenon
+http://purl.obolibrary.org/obo/CHEBI_30514    # 55 Cs cesium
+http://purl.obolibrary.org/obo/CHEBI_32594    # 56 Ba barium
+http://purl.obolibrary.org/obo/CHEBI_33336    # 57 La lanthanum
+http://purl.obolibrary.org/obo/CHEBI_33369    # 58 Ce cerium
+http://purl.obolibrary.org/obo/CHEBI_49828    # 59 Pr praseodymium
+http://purl.obolibrary.org/obo/CHEBI_33372    # 60 Nd neodymium
+http://purl.obolibrary.org/obo/CHEBI_33373    # 61 Pm promethium
+http://purl.obolibrary.org/obo/CHEBI_33374    # 62 Sm samarium
+http://purl.obolibrary.org/obo/CHEBI_32999    # 63 Eu europium
+http://purl.obolibrary.org/obo/CHEBI_33375    # 64 Gd gadolinium
+http://purl.obolibrary.org/obo/CHEBI_33376    # 65 Tb terbium
+http://purl.obolibrary.org/obo/CHEBI_33377    # 66 Dy dysprosium
+http://purl.obolibrary.org/obo/CHEBI_49648    # 67 Ho holmium
+http://purl.obolibrary.org/obo/CHEBI_33379    # 68 Er erbium
+http://purl.obolibrary.org/obo/CHEBI_33380    # 69 Tm thulium
+http://purl.obolibrary.org/obo/CHEBI_33381    # 70 Yb ytterbium
+http://purl.obolibrary.org/obo/CHEBI_33382    # 71 Lu lutetium
+http://purl.obolibrary.org/obo/CHEBI_33343    # 72 Hf hafnium
+http://purl.obolibrary.org/obo/CHEBI_33348    # 73 Ta tantalum
+http://purl.obolibrary.org/obo/CHEBI_27998    # 74 W tungsten
+http://purl.obolibrary.org/obo/CHEBI_49882    # 75 Re rhenium
+http://purl.obolibrary.org/obo/CHEBI_30687    # 76 Os osmium
+http://purl.obolibrary.org/obo/CHEBI_49666    # 77 Ir iridium
+http://purl.obolibrary.org/obo/CHEBI_33364    # 78 Pt platinum
+http://purl.obolibrary.org/obo/CHEBI_29287    # 79 Au gold
+http://purl.obolibrary.org/obo/CHEBI_25195    # 80 Hg mercury
+http://purl.obolibrary.org/obo/CHEBI_30440    # 81 Tl thallium
+http://purl.obolibrary.org/obo/CHEBI_25016    # 82 Pb lead
+http://purl.obolibrary.org/obo/CHEBI_33301    # 83 Bi bismuth
+http://purl.obolibrary.org/obo/CHEBI_33313    # 84 Po polonium
+http://purl.obolibrary.org/obo/CHEBI_30415    # 85 At astatine
+http://purl.obolibrary.org/obo/CHEBI_33314    # 86 Rn radon
+http://purl.obolibrary.org/obo/CHEBI_33323    # 87 Fr francium
+http://purl.obolibrary.org/obo/CHEBI_33325    # 88 Ra radium
+http://purl.obolibrary.org/obo/CHEBI_33337    # 89 Ac actinium
+http://purl.obolibrary.org/obo/CHEBI_33385    # 90 Th thorium
+http://purl.obolibrary.org/obo/CHEBI_33386    # 91 Pa protactinium
+http://purl.obolibrary.org/obo/CHEBI_27214    # 92 U uranium
+http://purl.obolibrary.org/obo/CHEBI_33387    # 93 Np neptunium
+http://purl.obolibrary.org/obo/CHEBI_33388    # 94 Pu plutonium
+http://purl.obolibrary.org/obo/CHEBI_33389    # 95 Am americium
+http://purl.obolibrary.org/obo/CHEBI_33390    # 96 Cm curium
+http://purl.obolibrary.org/obo/CHEBI_33391    # 97 Bk berkelium
+http://purl.obolibrary.org/obo/CHEBI_33392    # 98 Cf californium
+http://purl.obolibrary.org/obo/CHEBI_33393    # 99 Es einsteinium
+http://purl.obolibrary.org/obo/CHEBI_33394    # 100 Fm fermium
+http://purl.obolibrary.org/obo/CHEBI_33395    # 101 Md mendelevium
+http://purl.obolibrary.org/obo/CHEBI_33396    # 102 No nobelium
+http://purl.obolibrary.org/obo/CHEBI_33397    # 103 Lr lawrencium
+http://purl.obolibrary.org/obo/CHEBI_33346    # 104 Rf rutherfordium
+http://purl.obolibrary.org/obo/CHEBI_33349    # 105 Db dubnium
+http://purl.obolibrary.org/obo/CHEBI_33351    # 106 Sg seaborgium
+http://purl.obolibrary.org/obo/CHEBI_33355    # 107 Bh bohrium
+http://purl.obolibrary.org/obo/CHEBI_33357    # 108 Hs hassium
+http://purl.obolibrary.org/obo/CHEBI_33361    # 109 Mt meitnerium
+http://purl.obolibrary.org/obo/CHEBI_33367    # 110 Ds darmstadtium
+http://purl.obolibrary.org/obo/CHEBI_33368    # 111 Rg roentgentium
+http://purl.obolibrary.org/obo/CHEBI_33517    # 112 Cn copernicum
+   
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CHEBI_33250 #atom
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]
