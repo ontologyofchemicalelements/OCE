@@ -7,6 +7,6 @@ The basic information of chemical elements has been represented in the Chemical 
 
 To systematically represent and study chemical elements, we have then generated the community-driven Ontology of Chemical Elements (OCE). OCE only focuses on the known 118 chemical elements and their charactistics and relations with other entities. The OCE ontology is primarily developed by Dr. Kaiyong Liu from Anhui Medical University, Hefei, Anhui, China, and Yongqun "Oliver" He from University of Michigan Medical School, Ann Arbor, MI, USA. 
 
-References:
+# References:
 
 Kaiyong Liu, Yongqun He. Ontological Derivation of Mendeleev’s Periodic Table of Chemical Elements. The 10th International Conference on Biomedical Ontology (ICBO-2019), July 30 - August 2, 2019, Buffalo, NY, USA. One-page short article. Poster presentation. 
