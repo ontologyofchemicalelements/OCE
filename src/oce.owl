@@ -14,6 +14,7 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oce.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oce/BFO_mports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oce/CHEBI_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oce/RO_mports.owl"/>
         <dc:creator xml:lang="en">Kaiyong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He</dc:creator>
         <dc:date xml:lang="en">2-8-2020</dc:date>
@@ -97,15 +98,13 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000012">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label xml:lang="en">has final electron in subshell</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OCE_0000027 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000027">
-        <rdfs:label xml:lang="en">has shell of</rdfs:label>
+        <obo:IAO_0000115>An object property that represents a relation between an atom and a subshell that has the last or final electron of the atom.</obo:IAO_0000115>
+        <obo:IAO_0000118>has final electron in subshell</obo:IAO_0000118>
+        <obo:IAO_0000118>has last electron in subshell</obo:IAO_0000118>
+        <obo:IAO_0000119>Speight, J. . 2017. &apos;Chapter Two - Inorganic Chemistry.&apos; in, Environmental Inorganic Chemistry for Engineers (Butterworth-Heinemann).</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Electron_shell</obo:IAO_0000119>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
+        <rdfs:label xml:lang="en">has last electron in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -113,7 +112,10 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000035 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000035">
-        <rdfs:label xml:lang="en">has space</rdfs:label>
+        <obo:IAO_0000115>An object property that represents a relation between an atom and the number of electron shell. An electron shell is an orbit followed by electrons around an atom&apos;s nucleus. The closest shell to the nucleus is called the &quot;1 shell&quot; (also called the &quot;K shell&quot;), followed by the &quot;2 shell&quot; (or &quot;L shell&quot;), then the &quot;3 shell&quot; (or &quot;M shell&quot;), and so on farther and farther from the nucleus. The shells correspond to the principal quantum numbers (n = 1, 2, 3, 4 ...) or are labeled alphabetically with the letters used in X-ray notation (K, L, M, …).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Electron_shell</obo:IAO_0000119>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
+        <rdfs:label xml:lang="en">has electron shell</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -121,6 +123,11 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000058 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000058">
+        <obo:IAO_0000115>An object property that represents a relation between an atom and the number of valence electrons. A valence electron is an outer shell electron that is associated with an atom, and that can participate in the formation of a chemical bond if the outer shell is not closed. For a main group element, a valence electron can exist only in the outermost electron shell; in a transition metal, a valence electron can also be in an inner shell.</obo:IAO_0000115>
+        <obo:IAO_0000118>has valence electron number</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Electron_shell</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Valence_electron</obo:IAO_0000119>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
         <rdfs:label xml:lang="en">has valence electron</rdfs:label>
     </owl:ObjectProperty>
     
@@ -223,6 +230,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33521 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33521">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000003"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33559 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33559">
@@ -249,6 +269,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OCE_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <rdfs:label xml:lang="en">chemical element</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OCE_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000002">
@@ -260,6 +289,18 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">d block element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>A quality of material that, when freshly prepared, polished, or fractured, shows a lustrous appearance, and conducts electricity and heat relatively well.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Metal</obo:IAO_0000119>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
+        <rdfs:label xml:lang="en">metal quality</rdfs:label>
     </owl:Class>
     
 
@@ -634,6 +675,15 @@
             </owl:Class>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">IUACP group 11 element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:label xml:lang="en">nonmetal quality</rdfs:label>
     </owl:Class>
     
 
