@@ -15,13 +15,13 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oce/CHEBI_imports.owl"/>
         <dc:creator xml:lang="en">Kaiyong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He</dc:creator>
-        <dc:date xml:lang="en">2-7-2020</dc:date>
-        <dc:description xml:lang="en">In 1869, the version listed 67 elements, but the number of only atomic mass without name was 4 (mass=45, 68, 70, 180), the 63 ones among 67 elements had both name and atomic mass. The four predicted elements lighter than the rare earth elements, ekaboron (Eb), ekaaluminium (Ea), ekamanganese (Em), and ekasilicon (Es), proved to be good predictors of the properties of scandium, gallium, technetium and germanium respectively. Furthermore, among the given 63 elements, the name of the 3 elements (?Er=56 , ?Yt=60, ?In=75/6) was questionable, while the mass of the 4 elements (Th=118? Te=128?, Au=197? and Bi=210?) was questionable. Mendeleev has the distinction of accurately predicting the qualities of what he called ekasilicon, ekaaluminium and ekaboron (germanium, gallium and scandium, respectively). His 1871 table [Mendeleev 1871] has correct weights for yttrium, indium, cerium, and thorium, and correct classification for yttrium and indium. Mendeleev&apos;s 1871 periodic table with eight groups of elements. Dashes represented elements unknown in 1871</dc:description>
+        <dc:date xml:lang="en">2-8-2020</dc:date>
         <dc:description xml:lang="en">OCE is a formal ontology that represents various chemical elements from Mendeleev&apos;s 1871 periodic table.</dc:description>
+        <dc:description xml:lang="en">The Ontology of Chemical Elements (OCE) is an open source community-based ontology in the domain of chemical elements. OCE represents all chemical elements and their attributes, including those attributes defined in the Periodic Table of Chemical Elements.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">OCE: A formal ontology in the area of chemical elements</dc:subject>
         <dc:title xml:lang="en">OCE: Ontology of Chemical Elements</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.09</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.11</owl:versionInfo>
     </owl:Ontology>
     
 
