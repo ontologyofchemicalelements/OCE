@@ -14,13 +14,13 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oce.owl">
         <dc:creator xml:lang="en">Kaiyong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He</dc:creator>
-        <dc:date xml:lang="en">1-23-2020</dc:date>
-        <dc:description xml:lang="en">In 1869, the version listed 67 elements, but the number of only atomic mass without name was 4 (mass=45, 68, 70, 180), the 63 ones among 67 elements had both name and atomic mass. The four predicted elements lighter than the rare earth elements, ekaboron (Eb), ekaaluminium (Ea), ekamanganese (Em), and ekasilicon (Es), proved to be good predictors of the properties of scandium, gallium, technetium and germanium respectively. Furthermore, among the given 63 elements, the name of the 3 elements (?Er=56 , ?Yt=60, ?In=75/6) was questionable, while the mass of the 4 elements (Th=118? Te=128?, Au=197? and Bi=210?) was questionable. Mendeleev has the distinction of accurately predicting the qualities of what he called ekasilicon, ekaaluminium and ekaboron (germanium, gallium and scandium, respectively). His 1871 table [Mendeleev 1871] has correct weights for yttrium, indium, cerium, and thorium, and correct classification for yttrium and indium. Mendeleev&apos;s 1871 periodic table with eight groups of elements. Dashes represented elements unknown in 1871</dc:description>
+        <dc:date xml:lang="en">2-8-2020</dc:date>
         <dc:description xml:lang="en">OCE is a formal ontology that represents various chemical elements from Mendeleev&apos;s 1871 periodic table.</dc:description>
+        <dc:description xml:lang="en">The Ontology of Chemical Elements (OCE) is an open source community-based ontology in the domain of chemical elements. OCE represents all chemical elements and their attributes, including those attributes defined in the Periodic Table of Chemical Elements.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">OCE: A formal ontology in the area of chemical elements</dc:subject>
         <dc:title xml:lang="en">OCE: Ontology of Chemical Elements</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.04</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.17</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -36,10 +36,90 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000179 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179">
+        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the name of the variable that is used to represent it in the code that generates the BFO OWL file from the lispy specification.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">BFO OWL specification label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000180 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180">
+        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the term that is used to represent it in the the CLIF specification of BFO2</obo:IAO_0000115>
+        <obo:IAO_0000119>Person:Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">BFO CLIF specification label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">example of usage</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">curator note</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -48,6 +128,33 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">elucidation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000601 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">has associated axiom(nl)</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000602 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602">
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">has associated axiom(fol)</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -232,6 +339,12 @@
     
 
 
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    
+
+
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
@@ -268,15 +381,13 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000012">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label xml:lang="en">has final electron in subshell</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OCE_0000027 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000027">
-        <rdfs:label xml:lang="en">has shell of</rdfs:label>
+        <obo:IAO_0000115>An object property that represents a relation between an atom and a subshell that has the last or final electron of the atom.</obo:IAO_0000115>
+        <obo:IAO_0000118>has final electron in subshell</obo:IAO_0000118>
+        <obo:IAO_0000118>has last electron in subshell</obo:IAO_0000118>
+        <obo:IAO_0000119>Speight, J. . 2017. &apos;Chapter Two - Inorganic Chemistry.&apos; in, Environmental Inorganic Chemistry for Engineers (Butterworth-Heinemann).</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Electron_shell</obo:IAO_0000119>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
+        <rdfs:label xml:lang="en">has last electron in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -284,7 +395,10 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000035 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000035">
-        <rdfs:label xml:lang="en">has space</rdfs:label>
+        <obo:IAO_0000115>An object property that represents a relation between an atom and the number of electron shell. An electron shell is an orbit followed by electrons around an atom&apos;s nucleus. The closest shell to the nucleus is called the &quot;1 shell&quot; (also called the &quot;K shell&quot;), followed by the &quot;2 shell&quot; (or &quot;L shell&quot;), then the &quot;3 shell&quot; (or &quot;M shell&quot;), and so on farther and farther from the nucleus. The shells correspond to the principal quantum numbers (n = 1, 2, 3, 4 ...) or are labeled alphabetically with the letters used in X-ray notation (K, L, M, …).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Electron_shell</obo:IAO_0000119>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
+        <rdfs:label xml:lang="en">has electron shell</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -292,7 +406,25 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000058 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000058">
+        <obo:IAO_0000115>An object property that represents a relation between an atom and the number of valence electrons. A valence electron is an outer shell electron that is associated with an atom, and that can participate in the formation of a chemical bond if the outer shell is not closed. For a main group element, a valence electron can exist only in the outermost electron shell; in a transition metal, a valence electron can also be in an inner shell.</obo:IAO_0000115>
+        <obo:IAO_0000118>has valence electron number</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Electron_shell</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Valence_electron</obo:IAO_0000119>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
         <rdfs:label xml:lang="en">has valence electron</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086">
+        <obo:IAO_0000112 xml:lang="en">this apple has quality this red color</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">has_quality</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <rdfs:label xml:lang="en">has quality</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -320,6 +452,28 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
+        <obo:BFO_0000179>quality</obo:BFO_0000179>
+        <obo:BFO_0000180>Quality</obo:BFO_0000180>
+        <obo:IAO_0000112 xml:lang="en">the ambient temperature of this portion of air</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the color of a tomato</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the length of the circumference of your waist</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the mass of this piece of gold.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the shape of your nose</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the shape of your nostril</obo:IAO_0000112>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <obo:IAO_0000600 xml:lang="en">a quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized. (axiom label in BFO2 Reference: [055-001])</obo:IAO_0000600>
+        <obo:IAO_0000601 xml:lang="en">If an entity is a quality at any time that it exists, then it is a quality at every time that it exists. (axiom label in BFO2 Reference: [105-001])</obo:IAO_0000601>
+        <obo:IAO_0000602>(forall (x) (if (Quality x) (SpecificallyDependentContinuant x))) // axiom label in BFO2 CLIF: [055-001] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x) (if (exists (t) (and (existsAt x t) (Quality x))) (forall (t_1) (if (existsAt x t_1) (Quality x))))) // axiom label in BFO2 CLIF: [105-001] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">quality</rdfs:label>
+    </owl:Class>
     
 
 
@@ -4563,6 +4717,12 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33521 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33521">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000003"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An atom of an element that exhibits typical metallic properties, being typically shiny, with high electrical and thermal conductivity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -4588,6 +4748,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33559">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-block element</oboInOwl:hasRelatedSynonym>
@@ -4603,6 +4769,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33560">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33318"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any main group element atom belonging to the p-block of the periodic table.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
@@ -5418,14 +5590,8 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">s block element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <rdfs:label xml:lang="en">chemical element</rdfs:label>
     </owl:Class>
     
 
@@ -5448,14 +5614,11 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">p block element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>A quality of material that, when freshly prepared, polished, or fractured, shows a lustrous appearance, and conducts electricity and heat relatively well.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Metal</obo:IAO_0000119>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
+        <rdfs:label xml:lang="en">metal quality</rdfs:label>
     </owl:Class>
     
 
@@ -5471,6 +5634,17 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:label xml:lang="en">f block element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <chebi:formula>Nh</chebi:formula>
+        <oboInOwl:hasExactSynonym>nihonium</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">nihonium atom</rdfs:label>
     </owl:Class>
     
 
@@ -5823,6 +5997,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OCE_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:label xml:lang="en">nonmetal quality</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OCE_0000028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000028">
@@ -6081,6 +6264,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OCE_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <chebi:formula>Fl</chebi:formula>
+        <oboInOwl:hasExactSynonym>flerovium</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">flerovium atom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <chebi:formula>Mc</chebi:formula>
+        <oboInOwl:hasExactSynonym>moscovium</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">moscovium atom</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OCE_0000044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000044">
@@ -6129,6 +6334,39 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OCE_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <chebi:formula>Lv</chebi:formula>
+        <oboInOwl:hasExactSynonym>livermorium</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">livermorium atom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <chebi:formula>Ts</chebi:formula>
+        <oboInOwl:hasExactSynonym>tennessine</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">tennessine atom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <chebi:formula>Og</chebi:formula>
+        <oboInOwl:hasExactSynonym>oganesson</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">oganesson atom</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OCE_1000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_1000001">
@@ -6156,60 +6394,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/oce.owl/OCE_0000043 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oce.owl/OCE_0000043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
-        <rdfs:label xml:lang="en">subshell</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oce.owl/OCE_0000049 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oce.owl/OCE_0000049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/oce.owl/OCE_0000043"/>
-        <rdfs:label xml:lang="en">s subshell</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oce.owl/OCE_0000050 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oce.owl/OCE_0000050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/oce.owl/OCE_0000043"/>
-        <rdfs:label xml:lang="en">d subshell</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oce.owl/OCE_0000051 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oce.owl/OCE_0000051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/oce.owl/OCE_0000043"/>
-        <rdfs:label xml:lang="en">p subshell</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oce.owl/OCE_0000052 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oce.owl/OCE_0000052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/oce.owl/OCE_0000043"/>
-        <rdfs:label xml:lang="en">g subshell</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oce.owl/OCE_0000053 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oce.owl/OCE_0000053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/oce.owl/OCE_0000043"/>
-        <rdfs:label xml:lang="en">f subshell</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -6219,8 +6403,8 @@
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/chebi.owl">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For any queries contact chebi-help@ebi.ac.uk</rdfs:comment>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For any queries contact chebi-help@ebi.ac.uk</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Author: ChEBI curation team</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developed by Michael Ashburner &amp; Pankaj Jaiswal.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI Release version 183</rdfs:comment>
@@ -6270,16 +6454,6 @@
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OCE_0000032"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OCE_0000033"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OCE_0000034"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/oce.owl/OCE_0000049"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/oce.owl/OCE_0000050"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/oce.owl/OCE_0000051"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/oce.owl/OCE_0000052"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/oce.owl/OCE_0000053"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
