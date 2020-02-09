@@ -137,6 +137,30 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000057 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000057">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <obo:IAO_0000115>A data property that shows the relation between an atom and the integer number of protons in the nucleus of an atom.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Atomic_number</obo:IAO_0000119>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
+        <rdfs:label xml:lang="en">has atomic number</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -196,6 +220,33 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22984 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_22984">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000035"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000057"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">12</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -513,10 +564,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OCE_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>A quality of material that conducts spontaneous nuclear decay.</obo:IAO_0000115>
+        <obo:IAO_0000118>radioactivity</obo:IAO_0000118>
+        <obo:IAO_0000119>https://opentextbc.ca/introductorychemistry/chapter/radioactivity-2/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">radioactive quality</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OCE_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Nihonium is a synthetic chemical element with the symbol Nh and atomic number 113. It is extremely radioactive; its most stable known isotope, nihonium-286, has a half-life of about 10 seconds. In the periodic table, nihonium is a transactinide element in the p-block. It is a member of period 7 and group 13 (boron group).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Nihonium</obo:IAO_0000119>
         <chebi:formula>Nh</chebi:formula>
         <oboInOwl:hasExactSynonym>nihonium</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">nihonium atom</rdfs:label>
@@ -1466,6 +1537,12 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000035"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
@@ -1478,6 +1555,8 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>Flerovium is a superheavy artificial chemical element with the symbol Fl and atomic number 114. It is an extremely radioactive synthetic element. The element is named after the Flerov Laboratory of Nuclear Reactions of the Joint Institute for Nuclear Research in Dubna, Russia, where the element was discovered in 1998.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Flerovium</obo:IAO_0000119>
         <chebi:formula>Fl</chebi:formula>
         <oboInOwl:hasExactSynonym>flerovium</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">flerovium atom</rdfs:label>
@@ -1489,6 +1568,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Moscovium is a synthetic chemical element with the symbol Mc and atomic number 115. It was first synthesized in 2003 by a joint team of Russian and American scientists at the Joint Institute for Nuclear Research (JINR) in Dubna, Russia. In December 2015, it was recognized as one of four new elements by the Joint Working Party of international scientific bodies IUPAC and IUPAP. On 28 November 2016, it was officially named after the Moscow Oblast, in which the JINR is situated.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Moscovium</obo:IAO_0000119>
         <chebi:formula>Mc</chebi:formula>
         <oboInOwl:hasExactSynonym>moscovium</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">moscovium atom</rdfs:label>
@@ -1562,6 +1649,12 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000035"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
@@ -1574,8 +1667,11 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>Livermorium is a synthetic chemical element with the symbol Lv and has an atomic number of 116. It is an extremely radioactive element that has only been created in the laboratory and has not been observed in nature.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Livermorium</obo:IAO_0000119>
         <chebi:formula>Lv</chebi:formula>
         <oboInOwl:hasExactSynonym>livermorium</oboInOwl:hasExactSynonym>
+        <rdfs:comment>The element is named after the Lawrence Livermore National Laboratory in the United States, which collaborated with the Joint Institute for Nuclear Research (JINR) in Dubna, Russia to discover livermorium during experiments made between 2000 and 2006. The name of the laboratory refers to the city of Livermore, California where it is located, which in turn was named after the rancher and landowner Robert Livermore. The name was adopted by IUPAC on May 30, 2012. Four isotopes of livermorium are known, with mass numbers between 290 and 293 inclusive; the longest-lived among them is livermorium-293 with a half-life of about 60 milliseconds. A fifth possible isotope with mass number 294 has been reported but not yet confirmed.</rdfs:comment>
         <rdfs:label xml:lang="en">livermorium atom</rdfs:label>
     </owl:Class>
     
@@ -1585,6 +1681,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Tennessine is a synthetic chemical element with the symbol Ts and atomic number 117. It is the second-heaviest known element and the penultimate element of the 7th period of the periodic table.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Tennessine</obo:IAO_0000119>
         <chebi:formula>Ts</chebi:formula>
         <oboInOwl:hasExactSynonym>tennessine</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">tennessine atom</rdfs:label>
@@ -1596,6 +1700,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Oganesson is a synthetic chemical element with the symbol Og and atomic number 118. It was first synthesized in 2002 at the Joint Institute for Nuclear Research (JINR) in Dubna, near Moscow, Russia, by a joint team of Russian and American scientists. In December 2015, it was recognized as one of four new elements by the Joint Working Party of the international scientific bodies IUPAC and IUPAP. It was formally named on 28 November 2016</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Oganesson</obo:IAO_0000119>
         <chebi:formula>Og</chebi:formula>
         <oboInOwl:hasExactSynonym>oganesson</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">oganesson atom</rdfs:label>
@@ -1606,8 +1718,23 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000051">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000004"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
-        <rdfs:label>Scandium predicted</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An atom that has an unstable nucleus and the unstable atomic nucleus loses energy by radiation.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Radioactive_decay</obo:IAO_0000119>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
+        <rdfs:label xml:lang="en">radioactive atom</rdfs:label>
     </owl:Class>
     
 
@@ -1673,64 +1800,6 @@ The noble gases are historically also called the inert gases and sometimes refer
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Alkali_metal</obo:IAO_0000119>
         <dc:creator>Kaiyong Liu, Oliver He</dc:creator>
         <rdfs:label>alkali metal quality</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OCE_1000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_1000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000035"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Gallium predicted</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OCE_1000002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_1000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000035"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Germanium predicted</rdfs:label>
     </owl:Class>
     
 
