@@ -24,7 +24,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">OCE: A formal ontology in the area of chemical elements</dc:subject>
         <dc:title xml:lang="en">OCE: Ontology of Chemical Elements</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.21</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.23</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -321,6 +321,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33250 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33250">
+        <obo:IAO_0000118>chemical entity</obo:IAO_0000118>
+        <rdfs:comment>A chemical element is a species of atom having the same number of protons in their atomic nuclei (that is, the same atomic number, or Z). For example, the atomic number of oxygen is 8, so the element oxygen describes all atoms which have 8 protons. At the level of ontology, the chemical element is equivalent to the atom at the class level. - Oliver He, Kaiyong Liu. Ref: https://en.wikipedia.org/wiki/Chemical_element</rdfs:comment>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33309 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33309">
@@ -381,6 +390,12 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33559 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33559">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000010"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
@@ -394,6 +409,12 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33560 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33560">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
@@ -407,6 +428,12 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33561 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33561">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000009"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
@@ -453,8 +480,23 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <rdfs:label xml:lang="en">chemical element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
+        <obo:IAO_0000115>The valence shell is the outermost shell of an atom.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Electron_shell</obo:IAO_0000119>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
+        <rdfs:label xml:lang="en">valence shell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+        <obo:IAO_0000115>A valence electron is an outer shell electron that is associated with an atom, and that can participate in the formation of a chemical bond if the outer shell is not closed; in a single covalent bond, both atoms in the bond contribute one valence electron in order to form a shared pair.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Valence_electron</obo:IAO_0000119>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
+        <rdfs:label xml:lang="en">valence electron</rdfs:label>
     </owl:Class>
     
 
@@ -505,7 +547,7 @@
         <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
         <rdfs:comment>International Union of Pure and Applied Chemistry (IUACP)</rdfs:comment>
         <rdfs:comment>Under an international naming convention, the groups are numbered numerically from 1 to 18 from the leftmost column (the alkali metals) to the rightmost column (the noble gases).</rdfs:comment>
-        <rdfs:label xml:lang="en">element in IUACP group</rdfs:label>
+        <rdfs:label xml:lang="en">element atom in IUACP group</rdfs:label>
     </owl:Class>
     
 
@@ -513,7 +555,9 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000028"/>
+        <obo:IAO_0000115>part of an electron shell. For example, the first (K) shell has one subshell, called 1s; the second (L) shell has two subshells, called 2s and 2p; the third shell has 3s, 3p, and 3d; the fourth shell has 4s, 4p, 4d and 4f; the fifth shell has 5s, 5p, 5d, and 5f and can theoretically hold more in the 5g subshell that is not occupied in the ground-state electron configuration of any known element.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Electron_shell</obo:IAO_0000119>
         <rdfs:label xml:lang="en">subshell</rdfs:label>
     </owl:Class>
     
@@ -523,6 +567,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000008"/>
+        <obo:IAO_0000115>A subshell that has a maxium of 10 electrons and is contained in the 3rd shell and higher.</obo:IAO_0000115>
+        <obo:IAO_0000118>diffuse subshell</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Atomic_orbital</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Electron_shell#Subshells</obo:IAO_0000119>
         <rdfs:label xml:lang="en">d subshell</rdfs:label>
     </owl:Class>
     
@@ -532,6 +580,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000008"/>
+        <obo:IAO_0000115>A subshell that has a maxium of 2 electrons and is contained in every shell</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Atomic_orbital</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Electron_shell#Subshells</obo:IAO_0000119>
         <rdfs:label xml:lang="en">s subshell</rdfs:label>
     </owl:Class>
     
@@ -541,6 +592,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000008"/>
+        <obo:IAO_0000115>A subshell that has a maxium of 18 electrons and is contained in the 5th shell and higher.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Atomic_orbital</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Electron_shell#Subshells</obo:IAO_0000119>
         <rdfs:label xml:lang="en">g subshell</rdfs:label>
     </owl:Class>
     
@@ -550,6 +604,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000008"/>
+        <obo:IAO_0000115>A subshell that has a maxium of 22 electrons with 11 atomic orbitals.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Atomic_orbital</obo:IAO_0000119>
+        <obo:IAO_0000119>https://socratic.org/questions/how-many-atomic-orbitals-are-there-in-an-h-subshell</obo:IAO_0000119>
         <rdfs:label xml:lang="en">h subshell</rdfs:label>
     </owl:Class>
     
@@ -559,6 +616,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000008"/>
+        <obo:IAO_0000115>A subshell that has a maxium of 14 electrons and is contained in the 4th shell and higher.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Atomic_orbital</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Electron_shell#Subshells</obo:IAO_0000119>
         <rdfs:label xml:lang="en">f subshell</rdfs:label>
     </owl:Class>
     
@@ -568,6 +628,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000008"/>
+        <obo:IAO_0000115>A subshell that has a maxium of 6 electrons and is contained in the 2nd shell and higher.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Atomic_orbital</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Electron_shell#Subshells</obo:IAO_0000119>
         <rdfs:label xml:lang="en">p subshell</rdfs:label>
     </owl:Class>
     
@@ -605,8 +668,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 1 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)#Group_1</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 1 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 1 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -643,8 +707,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 2 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 2 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 2 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -681,8 +746,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 3 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 3 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 3 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -719,8 +785,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 4 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 4 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 4 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -757,8 +824,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 5 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 5 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 5 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -795,8 +863,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 6 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 6 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 6 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -833,8 +902,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 7 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 7 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 7 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -871,8 +941,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 8 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 8 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 8 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -909,8 +980,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 9 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 9 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 9 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -947,8 +1019,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 10 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 10 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 10 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -985,8 +1058,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 11 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 11 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 11 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1035,8 +1109,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 12 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 12 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 12 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1073,8 +1148,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 13 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 13 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 13 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1111,8 +1187,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 14 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 14 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 14 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1149,8 +1226,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 15 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 15 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 15 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1187,8 +1265,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 16 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 16 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 16 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1225,9 +1304,10 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 17 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:comment>Group VIIA</rdfs:comment>
-        <rdfs:label xml:lang="en">IUACP group 17 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 17 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1265,8 +1345,9 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an element atom in group 18 of the periodic table according to the IUACP classification</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IUACP group 18 element</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group 18 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1278,7 +1359,7 @@
         <obo:IAO_0000115>An atom that is classified as a chemical element in a period (or row) in the periodic table.</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)</obo:IAO_0000119>
         <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
-        <rdfs:label xml:lang="en">element in period</rdfs:label>
+        <rdfs:label xml:lang="en">element atom in period</rdfs:label>
     </owl:Class>
     
 
@@ -1294,8 +1375,9 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000115>an element atom in period 1 of the periodic table</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_1</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">period 1 element</rdfs:label>
+        <rdfs:label xml:lang="en">period 1 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1311,8 +1393,9 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000115>an element atom in period 2 of the periodic table</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_2</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">period 2 element</rdfs:label>
+        <rdfs:label xml:lang="en">period 2 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1328,8 +1411,9 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000115>an element atom in period 3 of the periodic table</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_3</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">period 3 element</rdfs:label>
+        <rdfs:label xml:lang="en">period 3 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1345,8 +1429,9 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000115>an element atom in period 4 of the periodic table</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_4</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">period 4 element</rdfs:label>
+        <rdfs:label xml:lang="en">period 4 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1362,8 +1447,9 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000115>an element atom in period 5 of the periodic table</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_5</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">period 5 element</rdfs:label>
+        <rdfs:label xml:lang="en">period 5 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1421,8 +1507,9 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000115>an element atom in period 6 of the periodic table</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_6</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">period 6 element</rdfs:label>
+        <rdfs:label xml:lang="en">period 6 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1438,8 +1525,9 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000115>an element atom in period 7 of the periodic table</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_7</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">period 7 element</rdfs:label>
+        <rdfs:label xml:lang="en">period 7 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1455,8 +1543,9 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000115>an element atom in period 8 of the periodic table</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_8</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">period 8 element</rdfs:label>
+        <rdfs:label xml:lang="en">period 8 element atom</rdfs:label>
     </owl:Class>
     
 
@@ -1526,8 +1615,8 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115>A quality of material that is shiny, silvery-white, somewhat reactive at standard temperature and pressure. 
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000003"/>
+        <obo:IAO_0000115>A metal quality of material that is shiny, silvery-white, somewhat reactive at standard temperature and pressure. 
 The alkaline earth metals are six chemical elements in group 2 of the periodic table. They are beryllium (Be), magnesium (Mg), calcium (Ca), strontium (Sr), barium (Ba), and radium (Ra).</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Alkaline_earth_metal</obo:IAO_0000119>
         <dc:creator>Kaiyong Liu, Oliver He</dc:creator>
@@ -1551,8 +1640,8 @@ The alkaline earth metals are six chemical elements in group 2 of the periodic t
     <!-- http://purl.obolibrary.org/obo/OCE_0000054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115>A quality of material that is rare on earth. 
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000003"/>
+        <obo:IAO_0000115>A metal quality of material that is rare on earth. 
 As defined by the International Union of Pure and Applied Chemistry, a rare earth metal element is one of a set of seventeen chemical elements in the periodic table, specifically the fifteen lanthanides, as well as scandium and yttrium. 
 Despite their name, rare-earth elements are – with the exception of the radioactive promethium – relatively plentiful in Earth&apos;s crust, with cerium being the 25th most abundant element at 68 parts per million, more abundant than copper. However, because of their geochemical properties, rare-earth elements are typically dispersed and not often found concentrated in rare-earth minerals; as a result economically exploitable ore deposits are less common.</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Rare-earth_element</obo:IAO_0000119>
@@ -1579,8 +1668,8 @@ The noble gases are historically also called the inert gases and sometimes refer
     <!-- http://purl.obolibrary.org/obo/OCE_0000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115>A quality of material that is shiny, soft, highly reactive at standard temperature and pressure and readily lose their outermost electron to form cations with charge +1.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000003"/>
+        <obo:IAO_0000115>A metal quality of material that is shiny, soft, highly reactive at standard temperature and pressure and readily lose their outermost electron to form cations with charge +1.</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Alkali_metal</obo:IAO_0000119>
         <dc:creator>Kaiyong Liu, Oliver He</dc:creator>
         <rdfs:label>alkali metal quality</rdfs:label>
@@ -1654,17 +1743,6 @@ The noble gases are historically also called the inert gases and sometimes refer
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OCE_0000009"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OCE_0000010"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OCE_0000011"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OCE_0000013"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OCE_0000014"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OCE_0000015"/>
-        </owl:members>
-    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
