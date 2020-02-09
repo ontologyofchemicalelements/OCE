@@ -17,13 +17,13 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oce/RO_mports.owl"/>
         <dc:creator xml:lang="en">Kaiyong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He</dc:creator>
-        <dc:date xml:lang="en">2-8-2020</dc:date>
+        <dc:date xml:lang="en">2-9-2020</dc:date>
         <dc:description xml:lang="en">OCE is a formal ontology that represents various chemical elements from Mendeleev&apos;s 1871 periodic table.</dc:description>
         <dc:description xml:lang="en">The Ontology of Chemical Elements (OCE) is an open source community-based ontology in the domain of chemical elements. OCE represents all chemical elements and their attributes, including those attributes defined in the Periodic Table of Chemical Elements.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">OCE: A formal ontology in the area of chemical elements</dc:subject>
         <dc:title xml:lang="en">OCE: Ontology of Chemical Elements</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.15</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.19</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -949,6 +949,28 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000042">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000035"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <chebi:formula>Fl</chebi:formula>
         <oboInOwl:hasExactSynonym>flerovium</oboInOwl:hasExactSynonym>
@@ -1019,6 +1041,28 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000048">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000035"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <chebi:formula>Lv</chebi:formula>
         <oboInOwl:hasExactSynonym>livermorium</oboInOwl:hasExactSynonym>
@@ -1049,9 +1093,95 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OCE_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <rdfs:label>Scandium predicted</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>The alkaline earth metals are six chemical elements in group 2 of the periodic table. They are beryllium (Be), magnesium (Mg), calcium (Ca), strontium (Sr), barium (Ba), and radium (Ra).[ The elements have very similar properties: they are all shiny, silvery-white, somewhat reactive metals at standard temperature and pressure</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Alkaline_earth_metal</obo:IAO_0000119>
+        <rdfs:label>alkaline earth metal quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>A metalloid is a type of chemical element which has properties in between, or that are a mixture of, those of metals and nonmetals. There is neither a standard definition of a metalloid nor complete agreement on the elements appropriately classified as such. Despite the lack of specificity, the term remains in use in the literature of chemistry.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Metalloid</obo:IAO_0000119>
+        <rdfs:label>metalloid quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>A rare-earth element (REE) or rare-earth metal (REM), as defined by the International Union of Pure and Applied Chemistry, is one of a set of seventeen chemical elements in the periodic table, specifically the fifteen lanthanides, as well as scandium and yttrium.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Rare-earth_element#cite_ref-2</obo:IAO_0000119>
+        <rdfs:label>rare earth metal_quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>The noble gases (historically also the inert gases; sometimes referred to as aerogensmake up a group of chemical elements with similar properties; under standard conditions, they are all odorless, colorless, monatomic gases with very low chemical reactivity.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Noble_gas</obo:IAO_0000119>
+        <rdfs:label>noble gas quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>The alkali metals are all shiny, soft, highly reactive metals at standard temperature and pressure and readily lose their outermost electron to form cations with charge +1.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Alkali_metal</obo:IAO_0000119>
+        <rdfs:label>alkali metal quality</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OCE_1000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_1000001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000035"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:label xml:lang="en">Gallium predicted</rdfs:label>
     </owl:Class>
@@ -1061,17 +1191,30 @@
     <!-- http://purl.obolibrary.org/obo/OCE_1000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_1000002">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000035"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:label xml:lang="en">Germanium predicted</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/oce.owl#Scandium_predicted -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/oce.owl#Scandium_predicted">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
-        <rdfs:label>Scandium predicted</rdfs:label>
     </owl:Class>
     
 
