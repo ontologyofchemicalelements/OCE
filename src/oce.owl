@@ -13,6 +13,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oce.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oce/BFO_mports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oce/CHEBI_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oce/RO_mports.owl"/>
@@ -24,7 +25,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">OCE: A formal ontology in the area of chemical elements</dc:subject>
         <dc:title xml:lang="en">OCE: Ontology of Chemical Elements</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.23</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.24</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -44,6 +45,62 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000047">
         <rdfs:label xml:lang="en">valence electron configuration</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000059 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000059">
+        <rdfs:label xml:lang="en">has Chinese label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000060 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000060">
+        <rdfs:label xml:lang="en">has German label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000061 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000061">
+        <rdfs:label xml:lang="en">has French label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000062 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000062">
+        <rdfs:label xml:lang="en">has Spanish label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000063 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000063">
+        <rdfs:label xml:lang="en">has Italian label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000064 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000064">
+        <obo:IAO_0000115>A annotation property that indicates the integer number of protons in the nucleus of an atom.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Atomic_number</obo:IAO_0000119>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
+        <rdfs:label xml:lang="en">has atomic number</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -137,30 +194,6 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OCE_0000057 -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OCE_0000057">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <obo:IAO_0000115>A data property that shows the relation between an atom and the integer number of protons in the nucleus of an atom.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Atomic_number</obo:IAO_0000119>
-        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
-        <rdfs:label xml:lang="en">has atomic number</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -241,12 +274,6 @@
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000057"/>
-                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">12</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>

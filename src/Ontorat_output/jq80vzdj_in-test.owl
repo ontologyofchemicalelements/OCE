@@ -1,0 +1,1407 @@
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: obo: <http://purl.obolibrary.org/obo/>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+Ontology: <http://purl.obolibrary.org/obo/ontorat_0000001.owl>
+
+Datatype: rdf:PlainLiteral
+Datatype: xsd:string
+Datatype: xsd:nonNegativeInteger
+Datatype: xsd:float
+Datatype: rdfs:Literal
+Datatype: xsd:integer
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/OCE_0000059>
+AnnotationProperty: <http://purl.obolibrary.org/obo/OCE_0000064>
+AnnotationProperty: <http://purl.obolibrary.org/obo/OCE_0000060>
+AnnotationProperty: <http://purl.obolibrary.org/obo/OCE_0000061>
+AnnotationProperty: <http://purl.obolibrary.org/obo/OCE_0000062>
+AnnotationProperty: <http://purl.obolibrary.org/obo/OCE_0000063>
+AnnotationProperty: <http://www.w3.org/2000/01/rdf-schema#label>
+AnnotationProperty: <http://www.w3.org/2000/01/rdf-schema#comment>
+AnnotationProperty: <http://www.w3.org/2000/01/rdf-schema#seeAlso>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000111>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000112>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000114>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000115>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000116>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000117>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000118>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000119>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000602>
+		Annotations:
+		rdfs:label "has associated axiom(fol)"
+	AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000601>
+		Annotations:
+		rdfs:label "has associated axiom(nl)"
+	AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000600>
+		Annotations:
+		rdfs:label "elucidation"
+	AnnotationProperty: <http://purl.obolibrary.org/obo/BFO_0000179>
+		Annotations:
+		rdfs:label "BFO OWL specification label"
+	AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>
+		Annotations:
+		rdfs:label "has_related_synonym"
+	AnnotationProperty: <http://purl.obolibrary.org/obo/OCE_0000047>
+		Annotations:
+		rdfs:label "valence electron configuration"
+	AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId>
+		Annotations:
+		rdfs:label "has_alternative_id"
+	AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#inSubset>
+		Annotations:
+		rdfs:label "in_subset"
+	AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>
+		Annotations:
+		rdfs:label "has_obo_format_version"
+	AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000118>
+		Annotations:
+		rdfs:label "alternative term"
+	AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000119>
+		Annotations:
+		rdfs:label "definition source"
+	AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000114>
+		Annotations:
+		rdfs:label "has curation status"
+	AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000116>
+		Annotations:
+		rdfs:label "editor note"
+	AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000115>
+		Annotations:
+		rdfs:label "definition"
+	AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000115>
+		Annotations:
+		rdfs:label "definition"
+	AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000412>
+		Annotations:
+		rdfs:label "imported from"
+	AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+		Annotations:
+		rdfs:label "database_cross_reference"
+	AnnotationProperty: <http://purl.obolibrary.org/obo/BFO_0000180>
+		Annotations:
+		rdfs:label "BFO CLIF specification label"
+	AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000112>
+		Annotations:
+		rdfs:label "example of usage"
+	AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000232>
+		Annotations:
+		rdfs:label "curator note"
+	AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>
+		Annotations:
+		rdfs:label "has_obo_namespace"
+	AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>
+		Annotations:
+		rdfs:label "has_exact_synonym"
+	AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#shorthand>
+		Annotations:
+		rdfs:label "shorthand"
+	AnnotationProperty: <http://www.w3.org/2000/01/rdf-schema#label>
+		Annotations:
+		rdfs:label "label"
+	
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_49637>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "1",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Wasserstoff",
+<http://purl.obolibrary.org/obo/OCE_0000061> "hydrogène",
+<http://purl.obolibrary.org/obo/OCE_0000062> "hidrógeno",
+<http://purl.obolibrary.org/obo/OCE_0000063> "idrogeno",
+<http://purl.obolibrary.org/obo/OCE_0000059> "氢"
+
+DatanProperty: <http://purl.obolibrary.org/obo/OCE_0000057>
+    Annotations:
+    rdfs:label "has atomic number"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_30217>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "2",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Helium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "hélium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "helio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "elio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "氦"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_30145>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "3",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Lithium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "lithium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "litio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "litio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锂"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_30501>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "4",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Beryllium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "béryllium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "berilio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "berillio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铍"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_27560>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "5",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Bor",
+<http://purl.obolibrary.org/obo/OCE_0000061> "bore",
+<http://purl.obolibrary.org/obo/OCE_0000062> "boro",
+<http://purl.obolibrary.org/obo/OCE_0000063> "boro",
+<http://purl.obolibrary.org/obo/OCE_0000059> "硼"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_27594>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "6",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Kohlenlstoff",
+<http://purl.obolibrary.org/obo/OCE_0000061> "carbone",
+<http://purl.obolibrary.org/obo/OCE_0000062> "carbono",
+<http://purl.obolibrary.org/obo/OCE_0000063> "carbonio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "碳"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_25555>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "7",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Stickstoff",
+<http://purl.obolibrary.org/obo/OCE_0000061> "azote",
+<http://purl.obolibrary.org/obo/OCE_0000062> "nitrógeno",
+<http://purl.obolibrary.org/obo/OCE_0000063> "azoto",
+<http://purl.obolibrary.org/obo/OCE_0000059> "氮"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_25805>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "8",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Sauerstoff",
+<http://purl.obolibrary.org/obo/OCE_0000061> "oxygène",
+<http://purl.obolibrary.org/obo/OCE_0000062> "oxígeno",
+<http://purl.obolibrary.org/obo/OCE_0000063> "ossigeno",
+<http://purl.obolibrary.org/obo/OCE_0000059> "氧"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_24061>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "9",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Fluor",
+<http://purl.obolibrary.org/obo/OCE_0000061> "fluor",
+<http://purl.obolibrary.org/obo/OCE_0000062> "flúor",
+<http://purl.obolibrary.org/obo/OCE_0000063> "fluoro",
+<http://purl.obolibrary.org/obo/OCE_0000059> "氟"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33310>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "10",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Neon",
+<http://purl.obolibrary.org/obo/OCE_0000061> "néon",
+<http://purl.obolibrary.org/obo/OCE_0000062> "neón",
+<http://purl.obolibrary.org/obo/OCE_0000063> "neon",
+<http://purl.obolibrary.org/obo/OCE_0000059> "氖"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_26708>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "11",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Natrium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "sodium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "sodio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "sodio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钠"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_25107>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "12",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Magnesium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "magnésium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "magnesio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "magnesio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "镁"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_28984>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "13",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Aluminium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "aluminium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "aluminio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "alluminio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铝"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_27573>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "14",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Silizium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "silicium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "silicio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "silicio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "硅"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_28659>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "15",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Phosphor",
+<http://purl.obolibrary.org/obo/OCE_0000061> "phosphore",
+<http://purl.obolibrary.org/obo/OCE_0000062> "fósforo",
+<http://purl.obolibrary.org/obo/OCE_0000063> "fosforo",
+<http://purl.obolibrary.org/obo/OCE_0000059> "磷"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_26833>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "16",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Schwefel",
+<http://purl.obolibrary.org/obo/OCE_0000061> "soufre",
+<http://purl.obolibrary.org/obo/OCE_0000062> "azufre",
+<http://purl.obolibrary.org/obo/OCE_0000063> "zolfo",
+<http://purl.obolibrary.org/obo/OCE_0000059> "硫"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_23116>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "17",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Chlor",
+<http://purl.obolibrary.org/obo/OCE_0000061> "chlore",
+<http://purl.obolibrary.org/obo/OCE_0000062> "cloro",
+<http://purl.obolibrary.org/obo/OCE_0000063> "cloro",
+<http://purl.obolibrary.org/obo/OCE_0000059> "氯"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_49475>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "18",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Argon",
+<http://purl.obolibrary.org/obo/OCE_0000061> "argon",
+<http://purl.obolibrary.org/obo/OCE_0000062> "argón",
+<http://purl.obolibrary.org/obo/OCE_0000063> "argo",
+<http://purl.obolibrary.org/obo/OCE_0000059> "氩"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_26216>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "19",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Kalium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "potassium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "potasio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "potassio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钾"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_22984>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "20",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Kalzium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "calcium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "calcio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "calcio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钙"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33330>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "21",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Skandium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "scandium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "escandio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "scandio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钪"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33341>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "22",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Titan",
+<http://purl.obolibrary.org/obo/OCE_0000061> "titane",
+<http://purl.obolibrary.org/obo/OCE_0000062> "titanio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "titanio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钛"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_27698>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "23",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Vanadium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "vanadium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "vanadio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "vanadio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钒"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_28073>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "24",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Chrom",
+<http://purl.obolibrary.org/obo/OCE_0000061> "chrome",
+<http://purl.obolibrary.org/obo/OCE_0000062> "cromo",
+<http://purl.obolibrary.org/obo/OCE_0000063> "cromo",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铬"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_18291>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "25",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Mangan",
+<http://purl.obolibrary.org/obo/OCE_0000061> "manganèse",
+<http://purl.obolibrary.org/obo/OCE_0000062> "manganeso",
+<http://purl.obolibrary.org/obo/OCE_0000063> "manganese",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锰"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_18248>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "26",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Eisen",
+<http://purl.obolibrary.org/obo/OCE_0000061> "fer",
+<http://purl.obolibrary.org/obo/OCE_0000062> "hierro",
+<http://purl.obolibrary.org/obo/OCE_0000063> "ferro",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铁"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_27638>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "27",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Kobalt",
+<http://purl.obolibrary.org/obo/OCE_0000061> "cobalt",
+<http://purl.obolibrary.org/obo/OCE_0000062> "cobalto",
+<http://purl.obolibrary.org/obo/OCE_0000063> "cobalto",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钴"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_28112>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "28",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Nickel",
+<http://purl.obolibrary.org/obo/OCE_0000061> "nickel",
+<http://purl.obolibrary.org/obo/OCE_0000062> "níquel",
+<http://purl.obolibrary.org/obo/OCE_0000063> "nichelio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "镍"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_28694>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "29",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Kupfer",
+<http://purl.obolibrary.org/obo/OCE_0000061> "cuivre",
+<http://purl.obolibrary.org/obo/OCE_0000062> "cobre",
+<http://purl.obolibrary.org/obo/OCE_0000063> "rame",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铜"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_27363>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "30",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Zink",
+<http://purl.obolibrary.org/obo/OCE_0000061> "zinc",
+<http://purl.obolibrary.org/obo/OCE_0000062> "zinc",
+<http://purl.obolibrary.org/obo/OCE_0000063> "zinco",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锌"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_49631>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "31",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Gallium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "gallium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "galio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "gallio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "镓"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_30441>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "32",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Germanium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "germanium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "germanio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "germanio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锗"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_27563>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "33",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Arsen",
+<http://purl.obolibrary.org/obo/OCE_0000061> "arsenic",
+<http://purl.obolibrary.org/obo/OCE_0000062> "arsénico",
+<http://purl.obolibrary.org/obo/OCE_0000063> "arsenico",
+<http://purl.obolibrary.org/obo/OCE_0000059> "砷"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_27568>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "34",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Selen",
+<http://purl.obolibrary.org/obo/OCE_0000061> "sélénium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "selenio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "selenio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "硒"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_22927>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "35",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Brom",
+<http://purl.obolibrary.org/obo/OCE_0000061> "brome",
+<http://purl.obolibrary.org/obo/OCE_0000062> "bromo",
+<http://purl.obolibrary.org/obo/OCE_0000063> "bromo",
+<http://purl.obolibrary.org/obo/OCE_0000059> "溴"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_49696>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "36",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Krypton",
+<http://purl.obolibrary.org/obo/OCE_0000061> "krypton",
+<http://purl.obolibrary.org/obo/OCE_0000062> "criptón",
+<http://purl.obolibrary.org/obo/OCE_0000063> "kripto",
+<http://purl.obolibrary.org/obo/OCE_0000059> "氪"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33322>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "37",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Rubidium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "rubidium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "rubidio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "rubidio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铷"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33324>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "38",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Strontium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "strontium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "estroncio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "stronzio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锶"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI:33331>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "39",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Yttrium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "yttrium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "itrio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "ittrio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钇"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33342>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "40",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Zirkonium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "zirconium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "circonio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "zirconio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锆"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33344>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "41",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Niob",
+<http://purl.obolibrary.org/obo/OCE_0000061> "niobium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "niobio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "niobio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铌"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_28685>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "42",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Molybdän",
+<http://purl.obolibrary.org/obo/OCE_0000061> "molybdène",
+<http://purl.obolibrary.org/obo/OCE_0000062> "molibdeno",
+<http://purl.obolibrary.org/obo/OCE_0000063> "molibdeno",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钼"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33353>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "43",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Technetium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "technétium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "tecnecio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "tecnezio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锝"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_30682>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "44",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Ruthenium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "ruthénium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "rutenio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "rutenio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钌"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33359>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "45",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Rhodium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "rhodium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "rodio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "rodio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铑"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33363>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "46",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Palladium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "palladium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "paladio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "palladio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钯"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_30512>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "47",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Silber",
+<http://purl.obolibrary.org/obo/OCE_0000061> "argent",
+<http://purl.obolibrary.org/obo/OCE_0000062> "plata",
+<http://purl.obolibrary.org/obo/OCE_0000063> "argento",
+<http://purl.obolibrary.org/obo/OCE_0000059> "银"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_22977>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "48",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Kadmium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "cadmium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "cadmio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "cadmio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "镉"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_30430>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "49",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Indium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "indium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "indio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "indio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铟"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_27007>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "50",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Zinn",
+<http://purl.obolibrary.org/obo/OCE_0000061> "Étain",
+<http://purl.obolibrary.org/obo/OCE_0000062> "estaño",
+<http://purl.obolibrary.org/obo/OCE_0000063> "stagno",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锡"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_30513>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "51",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Antimon",
+<http://purl.obolibrary.org/obo/OCE_0000061> "antimoine",
+<http://purl.obolibrary.org/obo/OCE_0000062> "antimonio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "antimonio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锑"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_30452>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "52",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Tellur",
+<http://purl.obolibrary.org/obo/OCE_0000061> "tellure",
+<http://purl.obolibrary.org/obo/OCE_0000062> "teluro",
+<http://purl.obolibrary.org/obo/OCE_0000063> "tellurio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "碲"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_24859>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "53",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Iod (Jod)",
+<http://purl.obolibrary.org/obo/OCE_0000061> "iode",
+<http://purl.obolibrary.org/obo/OCE_0000062> "yodo",
+<http://purl.obolibrary.org/obo/OCE_0000063> "iodio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "碘"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_49957>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "54",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Xenon",
+<http://purl.obolibrary.org/obo/OCE_0000061> "xénon",
+<http://purl.obolibrary.org/obo/OCE_0000062> "xenón",
+<http://purl.obolibrary.org/obo/OCE_0000063> "xeno",
+<http://purl.obolibrary.org/obo/OCE_0000059> "氙"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_30514>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "55",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Zäsium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "césium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "cesio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "cesio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铯"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_32594>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "56",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Barium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "baryum",
+<http://purl.obolibrary.org/obo/OCE_0000062> "bario",
+<http://purl.obolibrary.org/obo/OCE_0000063> "bario",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钡"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI:33336>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "57",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Lanthan",
+<http://purl.obolibrary.org/obo/OCE_0000061> "lanthane",
+<http://purl.obolibrary.org/obo/OCE_0000062> "lantano",
+<http://purl.obolibrary.org/obo/OCE_0000063> "lantanio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "镧"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI:33369>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "58",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Zer",
+<http://purl.obolibrary.org/obo/OCE_0000061> "cérium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "cerio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "cerio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铈"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_49828>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "59",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Praseodym",
+<http://purl.obolibrary.org/obo/OCE_0000061> "praséodyme",
+<http://purl.obolibrary.org/obo/OCE_0000062> "prosedimio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "praseodimio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "镨"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33372>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "60",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Neodym",
+<http://purl.obolibrary.org/obo/OCE_0000061> "néodyme",
+<http://purl.obolibrary.org/obo/OCE_0000062> "neodimio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "neodimio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钕"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33373 >
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "61",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Promethium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "prométhium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "promecio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "promezio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钷"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33374 >
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "62",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Samarium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "samarium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "samario",
+<http://purl.obolibrary.org/obo/OCE_0000063> "samario",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钐"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_32999>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "63",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Europium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "europium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "europio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "europio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铕"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33375>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "64",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Gadolinium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "gadolinium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "gadolineo",
+<http://purl.obolibrary.org/obo/OCE_0000063> "gadolinio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钆"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33376 >
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "65",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Terbium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "terbium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "terbio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "terbio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铽"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33377>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "66",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Dysprosium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "dysprosium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "disprosio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "disprosio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "镝"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_49648>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "67",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Holmium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "holmium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "holmio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "olmio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钬"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI:33379>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "68",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Erbium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "erbium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "erbio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "erbio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铒"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33380>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "69",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Thulium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "thulium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "tulio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "tulio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铥"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI:33381>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "70",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Ytterbium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "ytterbium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "iterbio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "itterbio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "镱"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33382>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "71",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Lutetium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "lutécium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "lutecio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "lutezio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "镥"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33343>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "72",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Hafnium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "hafnium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "hafnio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "hafnio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铪"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33348>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "73",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Tantal",
+<http://purl.obolibrary.org/obo/OCE_0000061> "tantale",
+<http://purl.obolibrary.org/obo/OCE_0000062> "tántalo",
+<http://purl.obolibrary.org/obo/OCE_0000063> "tantalio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钽"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_27998>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "74",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Wolfram",
+<http://purl.obolibrary.org/obo/OCE_0000061> "tungstène",
+<http://purl.obolibrary.org/obo/OCE_0000062> "wolframio or tungsteno",
+<http://purl.obolibrary.org/obo/OCE_0000063> "tungsteno",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钨"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_49882>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "75",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Rhenium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "rhénium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "renio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "renio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铼"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_30687>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "76",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Osmium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "osmium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "osmio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "osmio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锇"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_49666>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "77",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Iridium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "iridium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "iridio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "iridio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铱"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI:33364>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "78",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Platin",
+<http://purl.obolibrary.org/obo/OCE_0000061> "platine",
+<http://purl.obolibrary.org/obo/OCE_0000062> "platino",
+<http://purl.obolibrary.org/obo/OCE_0000063> "platino",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铂"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI:29287>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "79",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Gold",
+<http://purl.obolibrary.org/obo/OCE_0000061> "or",
+<http://purl.obolibrary.org/obo/OCE_0000062> "oro",
+<http://purl.obolibrary.org/obo/OCE_0000063> "oro",
+<http://purl.obolibrary.org/obo/OCE_0000059> "金"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI:25195>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "80",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Quecksilber",
+<http://purl.obolibrary.org/obo/OCE_0000061> "mercure",
+<http://purl.obolibrary.org/obo/OCE_0000062> "mercurio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "mercurio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "汞"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI:30440>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "81",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Thallium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "thallium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "talio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "tallio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铊"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI:25016>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "82",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Blei",
+<http://purl.obolibrary.org/obo/OCE_0000061> "plomb",
+<http://purl.obolibrary.org/obo/OCE_0000062> "plomo",
+<http://purl.obolibrary.org/obo/OCE_0000063> "piombo",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铅"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI:33301>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "83",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Wismut",
+<http://purl.obolibrary.org/obo/OCE_0000061> "bismuth",
+<http://purl.obolibrary.org/obo/OCE_0000062> "bismuto",
+<http://purl.obolibrary.org/obo/OCE_0000063> "bismuto",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铋"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33313>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "84",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Polonium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "polonium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "polonio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "polonio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钋"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_30415>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "85",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Astat",
+<http://purl.obolibrary.org/obo/OCE_0000061> "astate",
+<http://purl.obolibrary.org/obo/OCE_0000062> "astato",
+<http://purl.obolibrary.org/obo/OCE_0000063> "astato",
+<http://purl.obolibrary.org/obo/OCE_0000059> "砹"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33314>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "86",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Radon",
+<http://purl.obolibrary.org/obo/OCE_0000061> "radon",
+<http://purl.obolibrary.org/obo/OCE_0000062> "radón",
+<http://purl.obolibrary.org/obo/OCE_0000063> "radon",
+<http://purl.obolibrary.org/obo/OCE_0000059> "氡"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33323>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "87",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Franzium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "francium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "francio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "francio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钫"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33325>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "88",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Radium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "radium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "radio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "radio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "镭"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33337>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "89",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Aktinium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "actinium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "actinio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "attinio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锕"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI:33385>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "90",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Thorium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "thorium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "torio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "torio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钍"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33386>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "91",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Protaktinium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "protactinium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "protactinio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "protoattinio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "镤"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI:27214>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "92",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Uran",
+<http://purl.obolibrary.org/obo/OCE_0000061> "uranium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "uranio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "uranio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铀"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33387>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "93",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Neptunium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "neptunium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "neptunio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "nettunio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "镎"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33388>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "94",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Plutonium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "plutonium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "plutonio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "plutonio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钚"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33389 >
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "95",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Amerizium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "américium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "americio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "americio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "镅"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33390>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "96",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Kurium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "curium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "curio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "curio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锔"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33391 >
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "97",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Berkelium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "berkélium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "berkelio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "berkelio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锫"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33392>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "98",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Kalifornium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "californium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "californio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "californio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锎"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33393>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "99",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Einsteinium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "einsteinium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "einstenio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "einstenio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锿"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33394>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "100",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Fermium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "fermium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "fermio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "fermio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "镄"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33395>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "101",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Mendelevium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "mendélévium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "mendelevio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "mendelevio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钔"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33396>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "102",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Nobelium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "nobélium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "nobelio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "nobelio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "锘"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33397>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "103",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Lawrencium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "lawrencium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "lawrencio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "laurenzio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "铹"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33346>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "104",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Rutherfordium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "rutherfordium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "ruterfordio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "rutherfordio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钅卢"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33349>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "105",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Dubnium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "dubnium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "dubnio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "dubnio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钅杜"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33351>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "106",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Seaborgium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "seaborgium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "seaborgio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "seaborgio",
+<http://purl.obolibrary.org/obo/OCE_0000059> " 钅喜"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33355 >
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "107",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Bohrium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "bohrium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "bohrio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "bohrio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钅波"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33357>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "108",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Hassium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "hassium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "hassio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "hassio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钅黑"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33361>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "109",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Meitnerium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "meitnérium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "meitnerio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "meitnerio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钅麦"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33367>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "110",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Darmstadtium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "darmstadtium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "darmstadtio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "darmstadtio",
+<http://purl.obolibrary.org/obo/OCE_0000059> " 钅达 "
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33368>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "111",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Roentgentium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "roentgentium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "roentgentio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "roentgentio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "錀"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_33517>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "112",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Kopernikum",
+<http://purl.obolibrary.org/obo/OCE_0000061> "copérnicum",
+<http://purl.obolibrary.org/obo/OCE_0000062> "copernico",
+<http://purl.obolibrary.org/obo/OCE_0000063> "copernico",
+<http://purl.obolibrary.org/obo/OCE_0000059> "鎶"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/OCE_0000005>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "113",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Nihonium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "nihonium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "nihonio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "nihonio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钅尔"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/OCE_0000042>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "114",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Flerovium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "flerovium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "flerovio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "flerovio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "钅夫"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/OCE_0000043>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "115",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Moscovium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "moscovium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "moscovio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "moscovio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "镆"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/OCE_0000048>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "116",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Livermorium",
+<http://purl.obolibrary.org/obo/OCE_0000061> "livermorium",
+<http://purl.obolibrary.org/obo/OCE_0000062> "livermorio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "livermorio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "鉝"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/OCE_0000049>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "117",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Tennessine",
+<http://purl.obolibrary.org/obo/OCE_0000061> "tennessine",
+<http://purl.obolibrary.org/obo/OCE_0000062> "tennessio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "tennessio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "石田"
+
+
+Class: <http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/OCE_0000050>
+	
+    Annotations:
+        <http://purl.obolibrary.org/obo/OCE_0000057> "118",
+<http://purl.obolibrary.org/obo/OCE_0000060> "Oganesson",
+<http://purl.obolibrary.org/obo/OCE_0000061> "oganesson",
+<http://purl.obolibrary.org/obo/OCE_0000062> "oganessio",
+<http://purl.obolibrary.org/obo/OCE_0000063> "oganessio",
+<http://purl.obolibrary.org/obo/OCE_0000059> "气奥"
+

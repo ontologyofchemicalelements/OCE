@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Ontorat_output/Atomlabels_in_languages.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Ontorat_output/labels_in_languages.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/oce/RO_mports.owl" uri="RO_imports.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/oce/BFO_mports.owl" uri="BFO_imports.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1581280799556" name="duplicate:http://purl.obolibrary.org/obo/oce.owl" uri="oce-merged.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1581280799556" name="duplicate:http://purl.obolibrary.org/obo/oce.owl" uri="oce.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1581280799556" name="http://purl.obolibrary.org/obo/oce/BFO_mports.owl" uri="BFO_imports.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1581280799556" name="http://purl.obolibrary.org/obo/oce/CHEBI_imports.owl" uri="CHEBI_imports.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1581280799556" name="http://purl.obolibrary.org/obo/oce/RO_mports.owl" uri="RO_imports.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1581280799556" name="http://www.semanticweb.org/yongqunh/ontologies/2019/6/untitled-ontology-163" uri="OCE-demo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1581290145419" name="duplicate:http://purl.obolibrary.org/obo/oce.owl" uri="oce-merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1581290145419" name="duplicate:http://purl.obolibrary.org/obo/oce.owl" uri="oce.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1581290145419" name="http://purl.obolibrary.org/obo/oce/BFO_mports.owl" uri="BFO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1581290145419" name="http://purl.obolibrary.org/obo/oce/CHEBI_imports.owl" uri="CHEBI_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1581290145419" name="http://purl.obolibrary.org/obo/oce/RO_mports.owl" uri="RO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1581290145419" name="duplicate:http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Ontorat_output/Atomlabels_in_languages.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1581290145419" name="duplicate:http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Ontorat_output/labels_in_languages.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1581290145419" name="duplicate:http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Ontorat_output/zbri0f55_out.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1581290145419" name="http://www.semanticweb.org/yongqunh/ontologies/2019/6/untitled-ontology-163" uri="OCE-demo.owl"/>
     </group>
 </catalog>

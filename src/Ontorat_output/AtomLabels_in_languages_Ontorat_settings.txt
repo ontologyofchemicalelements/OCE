@@ -1,0 +1,57 @@
+# This is the template for setting up the Ontorat input conditions. 
+# Any text after # is just for notes and won't be used by Ontorat.
+
+[Online URL of the target OWL file (RDF/XML format)]
+# Note: Local file won't be used by Ontorat for security reason.   
+https://raw.githubusercontent.com/ontologyofchemicalelements/OCE/master/src/oce-merged.owl
+
+[Online URL of the data file (Only Excel file (.xls, .xlsx) or tab-delimited text file (.txt)]
+# Note: Local file won't be used by Ontorat for security reason. 
+
+
+Actual data starts from row: 2
+
+
+[New axioms will be used to]
+# Note: two options: 1. "generate new classes", 
+# or 2. "edit existing classes with term IDs defined in column A(or another letter)"
+edit existing classes with term IDs defined in column D  
+  
+[Annotations]
+# Note: Use comma to separate annotations
+'has German label' "{$columnJ}",
+'has French label' "{$columnK}",  
+'has Spanish label' "{$columnL}", 
+'has Italian label' "{$columnM}", 
+'has Chinese label' "{$columnN}"
+
+[Equivalent classes]
+# Note: Use comma to separate classes 
+
+
+[Superclasses]
+# Note: Use comma to separate classes 
+
+
+[Terms used to define anntoations, equivalent classes and superclasses]
+# Note: One line per term
+AnnotationProperty: 
+'has Chinese label': <http://purl.obolibrary.org/obo/OCE_0000059>
+'has atomic number': <http://purl.obolibrary.org/obo/OCE_0000064> 
+'has German label': <http://purl.obolibrary.org/obo/OCE_0000060>
+'has French label': <http://purl.obolibrary.org/obo/OCE_0000061>  
+'has Spanish label': <http://purl.obolibrary.org/obo/OCE_0000062> 
+'has Italian label': <http://purl.obolibrary.org/obo/OCE_0000063>
+Class:
+ObjectProperty:
+DataProperty:
+
+[Term URIs start with]
+# Note: provide a prefix ontology URIs
+
+
+[Auto-generated term ID]
+# Note: Prefix like "VO_", number of digits like "7", and start from like "1".
+Prefix: OCE_
+Number of digits: 7
+Start from:  1
