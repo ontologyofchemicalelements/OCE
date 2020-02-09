@@ -24,7 +24,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">OCE: A formal ontology in the area of chemical elements</dc:subject>
         <dc:title xml:lang="en">OCE: Ontology of Chemical Elements</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.19</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.21</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -307,6 +307,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30217 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_30217">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000035"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33309 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33309">
@@ -422,6 +436,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49637 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_49637">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000035"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OCE_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000001">
@@ -471,12 +499,13 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <obo:IAO_0000115>An element classied in the IUACP group in the periodic table</obo:IAO_0000115>
+        <obo:IAO_0000118>IUACP group element</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <obo:IAO_0000412>https://en.wikipedia.org/wiki/Periodic_table</obo:IAO_0000412>
         <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
         <rdfs:comment>International Union of Pure and Applied Chemistry (IUACP)</rdfs:comment>
         <rdfs:comment>Under an international naming convention, the groups are numbered numerically from 1 to 18 from the leftmost column (the alkali metals) to the rightmost column (the noble gases).</rdfs:comment>
-        <rdfs:label xml:lang="en">IUACP group element</rdfs:label>
+        <rdfs:label xml:lang="en">element in IUACP group</rdfs:label>
     </owl:Class>
     
 
