@@ -10,6 +10,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oce.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oce/BFO_mports.owl"/>
@@ -144,6 +145,82 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_137980 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_137980">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000053"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22313 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_22313">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000052"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22314 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_22314">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000056"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25585 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_25585">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000027"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_26708 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_26708">
@@ -230,6 +307,44 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33309 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33309">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000055"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33321 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33321">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000054"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33521 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33521">
@@ -239,6 +354,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000003"/>
             </owl:Restriction>
         </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 
@@ -269,26 +390,43 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OCE_0000001 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33561 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <rdfs:label xml:lang="en">chemical element</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OCE_0000002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33561">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">d block element</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33562 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33562">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000014"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OCE_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <rdfs:label xml:lang="en">chemical element</rdfs:label>
     </owl:Class>
     
 
@@ -301,21 +439,6 @@
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Metal</obo:IAO_0000119>
         <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
         <rdfs:label xml:lang="en">metal quality</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OCE_0000004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000004">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000014"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
-        <rdfs:label xml:lang="en">f block element</rdfs:label>
     </owl:Class>
     
 
@@ -334,7 +457,10 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000028"/>
+        <obo:IAO_0000115>An orbit followed by electrons around an atom&apos;s nucleus. The closest shell to the nucleus is called the &quot;1 shell&quot; (also called the &quot;K shell&quot;), followed by the &quot;2 shell&quot; (or &quot;L shell&quot;), then the &quot;3 shell&quot; (or &quot;M shell&quot;), and so on farther and farther from the nucleus. The shells correspond to the principal quantum numbers (n = 1, 2, 3, 4 ...) or are labeled alphabetically with the letters used in X-ray notation (K, L, M, …).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Electron_shell</obo:IAO_0000119>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
         <rdfs:label xml:lang="en">electron shell</rdfs:label>
     </owl:Class>
     
@@ -344,10 +470,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <obo:IAO_0000115>An element classied in the IUACP group in the periodic table</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <obo:IAO_0000412>https://en.wikipedia.org/wiki/Periodic_table</obo:IAO_0000412>
-        <rdfs:comment>International Union of Pure and Applied Chemistry(IUACP)</rdfs:comment>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
+        <rdfs:comment>International Union of Pure and Applied Chemistry (IUACP)</rdfs:comment>
         <rdfs:comment>Under an international naming convention, the groups are numbered numerically from 1 to 18 from the leftmost column (the alkali metals) to the rightmost column (the noble gases).</rdfs:comment>
-        <rdfs:label xml:lang="en">IUACP group</rdfs:label>
+        <rdfs:label xml:lang="en">IUACP group element</rdfs:label>
     </owl:Class>
     
 
@@ -418,8 +547,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -433,7 +561,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000010"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)#Group_1</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 1 element</rdfs:label>
     </owl:Class>
     
@@ -442,8 +585,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -457,7 +599,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000010"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 2 element</rdfs:label>
     </owl:Class>
     
@@ -466,8 +623,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -481,7 +637,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000009"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 3 element</rdfs:label>
     </owl:Class>
     
@@ -490,8 +661,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -505,7 +675,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000009"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 4 element</rdfs:label>
     </owl:Class>
     
@@ -514,8 +699,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -529,7 +713,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000009"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 5 element</rdfs:label>
     </owl:Class>
     
@@ -538,8 +737,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -553,7 +751,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000009"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 6 element</rdfs:label>
     </owl:Class>
     
@@ -562,8 +775,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -577,7 +789,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000009"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 7 element</rdfs:label>
     </owl:Class>
     
@@ -586,8 +813,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -601,7 +827,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000009"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 8 element</rdfs:label>
     </owl:Class>
     
@@ -610,8 +851,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -625,7 +865,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000009"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 9 element</rdfs:label>
     </owl:Class>
     
@@ -634,8 +889,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -649,7 +903,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000009"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 10 element</rdfs:label>
     </owl:Class>
     
@@ -658,8 +927,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -673,7 +941,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000009"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">11</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 11 element</rdfs:label>
     </owl:Class>
     
@@ -683,6 +966,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>A quality of material that mostly lacks the characteristics of a metal. Physically, a nonmetal tends to have a relatively low melting point, boiling point, and density. A nonmetal is typically brittle when solid and usually has poor thermal conductivity and electrical conductivity. Chemically, nonmetals tend to have relatively high ionization energy, electron affinity, and electronegativity. They gain or share electrons when they react with other elements and chemical compounds.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Nonmetal</obo:IAO_0000119>
+        <dc:creator>Kaiyong Liu, Oliver He</dc:creator>
         <rdfs:label xml:lang="en">nonmetal quality</rdfs:label>
     </owl:Class>
     
@@ -691,8 +977,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -706,7 +991,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000009"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">12</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 12 element</rdfs:label>
     </owl:Class>
     
@@ -715,8 +1015,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -730,7 +1029,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 13 element</rdfs:label>
     </owl:Class>
     
@@ -739,8 +1053,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -754,7 +1067,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 14 element</rdfs:label>
     </owl:Class>
     
@@ -763,8 +1091,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -778,7 +1105,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 15 element</rdfs:label>
     </owl:Class>
     
@@ -787,8 +1129,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000032">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -802,7 +1143,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 16 element</rdfs:label>
     </owl:Class>
     
@@ -811,8 +1167,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -826,7 +1181,22 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:comment>Group VIIA</rdfs:comment>
         <rdfs:label xml:lang="en">IUACP group 17 element</rdfs:label>
     </owl:Class>
@@ -836,8 +1206,7 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -851,7 +1220,23 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Group_(periodic_table)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IUACP group 18 element</rdfs:label>
     </owl:Class>
     
@@ -861,6 +1246,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <obo:IAO_0000115>An atom that is classified as a chemical element in a period (or row) in the periodic table.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)</obo:IAO_0000119>
+        <dc:creator>Oliver He, Kaiyong Liu</dc:creator>
         <rdfs:label xml:lang="en">element in period</rdfs:label>
     </owl:Class>
     
@@ -877,6 +1265,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_1</obo:IAO_0000119>
         <rdfs:label xml:lang="en">period 1 element</rdfs:label>
     </owl:Class>
     
@@ -893,6 +1282,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_2</obo:IAO_0000119>
         <rdfs:label xml:lang="en">period 2 element</rdfs:label>
     </owl:Class>
     
@@ -909,6 +1299,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_3</obo:IAO_0000119>
         <rdfs:label xml:lang="en">period 3 element</rdfs:label>
     </owl:Class>
     
@@ -925,6 +1316,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_4</obo:IAO_0000119>
         <rdfs:label xml:lang="en">period 4 element</rdfs:label>
     </owl:Class>
     
@@ -941,6 +1333,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_5</obo:IAO_0000119>
         <rdfs:label xml:lang="en">period 5 element</rdfs:label>
     </owl:Class>
     
@@ -949,29 +1342,27 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000042">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
-                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000035"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <chebi:formula>Fl</chebi:formula>
         <oboInOwl:hasExactSynonym>flerovium</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">flerovium atom</rdfs:label>
@@ -1001,6 +1392,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_6</obo:IAO_0000119>
         <rdfs:label xml:lang="en">period 6 element</rdfs:label>
     </owl:Class>
     
@@ -1017,6 +1409,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_7</obo:IAO_0000119>
         <rdfs:label xml:lang="en">period 7 element</rdfs:label>
     </owl:Class>
     
@@ -1033,6 +1426,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000036"/>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Period_(periodic_table)#Period_8</obo:IAO_0000119>
         <rdfs:label xml:lang="en">period 8 element</rdfs:label>
     </owl:Class>
     
@@ -1041,29 +1435,27 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000048">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
-                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000035"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <chebi:formula>Lv</chebi:formula>
         <oboInOwl:hasExactSynonym>livermorium</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">livermorium atom</rdfs:label>
@@ -1106,8 +1498,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115>The alkaline earth metals are six chemical elements in group 2 of the periodic table. They are beryllium (Be), magnesium (Mg), calcium (Ca), strontium (Sr), barium (Ba), and radium (Ra).[ The elements have very similar properties: they are all shiny, silvery-white, somewhat reactive metals at standard temperature and pressure</obo:IAO_0000115>
+        <obo:IAO_0000115>A quality of material that is shiny, silvery-white, somewhat reactive at standard temperature and pressure. 
+The alkaline earth metals are six chemical elements in group 2 of the periodic table. They are beryllium (Be), magnesium (Mg), calcium (Ca), strontium (Sr), barium (Ba), and radium (Ra).</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Alkaline_earth_metal</obo:IAO_0000119>
+        <dc:creator>Kaiyong Liu, Oliver He</dc:creator>
         <rdfs:label>alkaline earth metal quality</rdfs:label>
     </owl:Class>
     
@@ -1117,8 +1511,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115>A metalloid is a type of chemical element which has properties in between, or that are a mixture of, those of metals and nonmetals. There is neither a standard definition of a metalloid nor complete agreement on the elements appropriately classified as such. Despite the lack of specificity, the term remains in use in the literature of chemistry.</obo:IAO_0000115>
+        <obo:IAO_0000115>A quality of material that has properties in between, or that is a mixture of, those of metals and nonmetals. There is neither a standard definition of a metalloid nor complete agreement on the elements appropriately classified as such. Despite the lack of specificity, the term remains in use in the literature of chemistry.</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Metalloid</obo:IAO_0000119>
+        <dc:creator>Kaiyong Liu, Oliver He</dc:creator>
         <rdfs:label>metalloid quality</rdfs:label>
     </owl:Class>
     
@@ -1128,9 +1523,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115>A rare-earth element (REE) or rare-earth metal (REM), as defined by the International Union of Pure and Applied Chemistry, is one of a set of seventeen chemical elements in the periodic table, specifically the fifteen lanthanides, as well as scandium and yttrium.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Rare-earth_element#cite_ref-2</obo:IAO_0000119>
-        <rdfs:label>rare earth metal_quality</rdfs:label>
+        <obo:IAO_0000115>A quality of material that is rare on earth. 
+As defined by the International Union of Pure and Applied Chemistry, a rare earth metal element is one of a set of seventeen chemical elements in the periodic table, specifically the fifteen lanthanides, as well as scandium and yttrium. 
+Despite their name, rare-earth elements are – with the exception of the radioactive promethium – relatively plentiful in Earth&apos;s crust, with cerium being the 25th most abundant element at 68 parts per million, more abundant than copper. However, because of their geochemical properties, rare-earth elements are typically dispersed and not often found concentrated in rare-earth minerals; as a result economically exploitable ore deposits are less common.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Rare-earth_element</obo:IAO_0000119>
+        <dc:creator>Kaiyong Liu, Oliver He</dc:creator>
+        <rdfs:comment>The first rare-earth mineral discovered (1787) was gadolinite, a mineral composed of cerium, yttrium, iron, silicon, and other elements. This mineral was extracted from a mine in the village of Ytterby in Sweden; four of the rare-earth elements bear names derived from this single location.</rdfs:comment>
+        <rdfs:label>rare earth metal quality</rdfs:label>
     </owl:Class>
     
 
@@ -1138,9 +1537,11 @@
     <!-- http://purl.obolibrary.org/obo/OCE_0000055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115>The noble gases (historically also the inert gases; sometimes referred to as aerogensmake up a group of chemical elements with similar properties; under standard conditions, they are all odorless, colorless, monatomic gases with very low chemical reactivity.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCE_0000027"/>
+        <obo:IAO_0000115>A nonmetal quality of material that isodorless, colorless, monatomic gases with very low chemical reactivity under standard conditions.
+The noble gases are historically also called the inert gases and sometimes referred to as aerogens.</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Noble_gas</obo:IAO_0000119>
+        <dc:creator>Kaiyong Liu, Oliver He</dc:creator>
         <rdfs:label>noble gas quality</rdfs:label>
     </owl:Class>
     
@@ -1150,8 +1551,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_0000056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115>The alkali metals are all shiny, soft, highly reactive metals at standard temperature and pressure and readily lose their outermost electron to form cations with charge +1.</obo:IAO_0000115>
+        <obo:IAO_0000115>A quality of material that is shiny, soft, highly reactive at standard temperature and pressure and readily lose their outermost electron to form cations with charge +1.</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Alkali_metal</obo:IAO_0000119>
+        <dc:creator>Kaiyong Liu, Oliver He</dc:creator>
         <rdfs:label>alkali metal quality</rdfs:label>
     </owl:Class>
     
@@ -1160,29 +1562,27 @@
     <!-- http://purl.obolibrary.org/obo/OCE_1000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_1000001">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
-                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000035"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Gallium predicted</rdfs:label>
     </owl:Class>
     
@@ -1191,29 +1591,27 @@
     <!-- http://purl.obolibrary.org/obo/OCE_1000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OCE_1000002">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
-                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OCE_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000035"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OCE_0000006"/>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OCE_0000058"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Germanium predicted</rdfs:label>
     </owl:Class>
     

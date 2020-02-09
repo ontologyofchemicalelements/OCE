@@ -123,6 +123,13 @@ http://purl.obolibrary.org/obo/CHEBI_33250 #atom
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+http://purl.obolibrary.org/obo/CHEBI_36342 #subatomic particle
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+http://purl.obolibrary.org/obo/CHEBI_50906 #role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000017 #realizable entity
 
 [Source term retrieval setting]
 includeAllIntermediates
