@@ -13,3 +13,6 @@ Kaiyong Liu, Yongqun He. Ontological Derivation of Mendeleev’s Periodic Table 
 
 ### Source code: 
 https://raw.githubusercontent.com/ontologyofchemicalelements/OCE/master/src/oce-merged.owl
+
+### Deposition:
+BioPortal: https://bioportal.bioontology.org/ontologies/success/OCE 
