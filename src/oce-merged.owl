@@ -15,13 +15,14 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oce.owl">
         <dc:creator xml:lang="en">Kaiyong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He</dc:creator>
-        <dc:date xml:lang="en">2-9-2020</dc:date>
+        <dc:date xml:lang="en">2-28-2020</dc:date>
         <dc:description xml:lang="en">OCE is a formal ontology that represents various chemical elements from Mendeleev&apos;s 1871 periodic table.</dc:description>
         <dc:description xml:lang="en">The Ontology of Chemical Elements (OCE) is an open source community-based ontology in the domain of chemical elements. OCE represents all chemical elements and their attributes, including those attributes defined in the Periodic Table of Chemical Elements.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">OCE: A formal ontology in the area of chemical elements</dc:subject>
         <dc:title xml:lang="en">OCE: Ontology of Chemical Elements</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.24</owl:versionInfo>
+        <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.28</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -7982,8 +7983,8 @@ The noble gases are historically also called the inert gases and sometimes refer
         <foaf:homepage rdf:resource="http://basic-formal-ontology.org/"/>
         <dc:contributor>Barry Smith</dc:contributor>
         <rdfs:comment xml:lang="en">The BSD license on the BFO project site refers to code used to build BFO.</rdfs:comment>
-        <dc:contributor>David Osumi-Sutherland</dc:contributor>
         <dc:contributor>Pierre Grenon</dc:contributor>
+        <dc:contributor>David Osumi-Sutherland</dc:contributor>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo/dev/bfo.clif"/>
         <dc:contributor>Selja Seppälä</dc:contributor>
         <dc:contributor>Werner Ceusters</dc:contributor>
@@ -7994,43 +7995,43 @@ The noble gases are historically also called the inert gases and sometimes refer
         <dc:contributor>Mauricio Almeida</dc:contributor>
         <rdfs:comment xml:lang="en">Please see the project site https://github.com/BFO-ontology/BFO, the bfo2 owl discussion group http://groups.google.com/group/bfo-owl-devel, the bfo2 discussion group http://groups.google.com/group/bfo-devel, the tracking google doc http://goo.gl/IlrEE, and the current version of the bfo2 reference http://purl.obolibrary.org/obo/bfo/dev/bfo2-reference.docx. This ontology is generated from a specification at https://github.com/BFO-ontology/BFO/tree/master/src/ontology/owl-group/specification/ and with the code that generates the OWL version in https://github.com/BFO-ontology/BFO/tree/master/src/tools/. A very early version of BFO version 2 in CLIF is at http://purl.obolibrary.org/obo/bfo/dev/bfo.clif.</rdfs:comment>
         <dc:contributor>Melanie Courtot</dc:contributor>
-        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <foaf:homepage rdf:resource="https://github.com/BFO-ontology/BFO"/>
         <dc:contributor>Bjoern Peters</dc:contributor>
-        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-owl-devel"/>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <dc:contributor>Yongqun &quot;Oliver&quot; He</dc:contributor>
+        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-owl-devel"/>
         <rdfs:seeAlso rdf:resource="https://github.com/BFO-ontology/BFO/tree/master/src/tools/"/>
         <dc:contributor>James A. Overton</dc:contributor>
         <dc:contributor>Jonathan Bona</dc:contributor>
         <dc:contributor>Holger Stenzhorn</dc:contributor>
-        <foaf:homepage rdf:resource="http://ifomis.org/bfo"/>
         <dc:contributor>Fabian Neuhaus</dc:contributor>
+        <foaf:homepage rdf:resource="http://ifomis.org/bfo"/>
+        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-discuss"/>
         <dc:contributor>Randall Dipert</dc:contributor>
         <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-devel"/>
-        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-discuss"/>
-        <dc:contributor>Larry Hunter</dc:contributor>
         <dc:contributor>Stefan Schulz</dc:contributor>
+        <dc:contributor>Larry Hunter</dc:contributor>
         <obo:IAO_0000116>BFO 2 Reference: BFO&apos;s treatment of continuants and occurrents - as also its treatment of regions, rests on a dichotomy between space and time, and on the view that there are two perspectives on reality - earlier called the &apos;SNAP&apos; and &apos;SPAN&apos; perspectives, both of which are essential to the non-reductionist representation of reality as we understand it from the best available science.</obo:IAO_0000116>
         <dc:contributor>Chris Mungall</dc:contributor>
         <rdfs:isDefinedBy rdf:resource="https://github.com/BFO-ontology/BFO/tree/master/src/ontology/owl-group/specification/"/>
-        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: BFO does not claim to provide complete coverage of entities of all types. It seeks only to provide coverage of those entities studied by empirical science together with those entities which affect or are involved in human activities such as data processing and planning - coverage that is sufficiently broad to provide assistance to those engaged in building domain ontologies for purposes of data annotation.</obo:IAO_0000116>
         <dc:contributor>Ron Rudnicki</dc:contributor>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: BFO does not claim to provide complete coverage of entities of all types. It seeks only to provide coverage of those entities studied by empirical science together with those entities which affect or are involved in human activities such as data processing and planning - coverage that is sufficiently broad to provide assistance to those engaged in building domain ontologies for purposes of data annotation.</obo:IAO_0000116>
         <dc:contributor>Mark Ressler</dc:contributor>
         <dc:contributor>Albert Goldfain</dc:contributor>
         <obo:IAO_0000116>BFO 2 Reference: For both terms and relational expressions in BFO, we distinguish between primitive and defined. &apos;Entity&apos; is an example of a  primitive term. Primitive terms in a highest-level ontology such as BFO are terms that are so basic to our understanding of reality that there is no way of defining them in a non-circular fashion. For these, therefore, we can provide only elucidations, supplemented by examples and by axioms.</obo:IAO_0000116>
-        <dc:contributor>Ludger Jansen</dc:contributor>
-        <dc:contributor>Bill Duncan</dc:contributor>
         <dc:contributor>Alan Ruttenberg</dc:contributor>
+        <dc:contributor>Bill Duncan</dc:contributor>
+        <dc:contributor>Ludger Jansen</dc:contributor>
         <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/bfo/dev/owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/chebi.owl">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For any queries contact chebi-help@ebi.ac.uk</rdfs:comment>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For any queries contact chebi-help@ebi.ac.uk</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Author: ChEBI curation team</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developed by Michael Ashburner &amp; Pankaj Jaiswal.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI Release version 184</rdfs:comment>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27:01:2020 18:45</oboInOwl:date>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI subsumes and replaces the Chemical Ontology first</rdfs:comment>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27:01:2020 18:45</oboInOwl:date>
     </rdf:Description>
     
 
